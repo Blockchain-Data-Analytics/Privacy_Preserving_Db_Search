@@ -1,5 +1,7 @@
 # Privacy preserving database search
 
+We have submitted a proposal to Catalyst to help fund this work. Please, consider to vote for [proposal](https://cardano.ideascale.com/c/idea/122016).
+
 ## Summary
 
 This work builds on probabilistic filters such as Bloom filters([Bl70](#bl70)) which are very well studied and show interesting features. By their definition they allow to assess whether an element is part of a set of elements which can be large. This is executed by assigning elements to bins based on the hashing of their data. If this is done for all the elements in the set, then the test whether an element is part of the set becomes a condition (|bin| > 0) on the count of elements in the bin to which the query element is mapped. 
